@@ -1,0 +1,33 @@
+.login{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .userInfo,.loginBTN{
+    width: 90%;
+    height: 56px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .loginBTN{
+    background: rgb(192, 55, 55);
+    border-radius: 5px;
+    color: white;
+    line-height: 56px;
+    font-size: 25px;
+  }
+  .loginBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+  }
